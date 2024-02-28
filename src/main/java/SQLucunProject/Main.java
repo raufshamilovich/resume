@@ -30,7 +30,7 @@ public class Main {
         // 2.   id`si 2 olan setirleri silir remove metodu ile ve  getAll metodun cagirir bu halda(remov`lu)
 //        UserDaoInter userDao=new UserDaoImpl();
 //        List<User> list=userDao.getAll();
-//        userDao.removUser(2);
+//        userDao.removeUser(2);
 //        List<User> list2=userDao.getAll();//id`si 2 olan setirleri silir remove metodu ile
 //        //ve  getAll metodun cagirir bu halda(remov`lu)
 //        System.out.println("list="+list);
