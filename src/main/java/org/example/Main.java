@@ -27,7 +27,7 @@ public class Main {
 
         while(rs.next()){
             int id=rs.getInt("id");
-            String name=rs.getString("name");//hal hazirda ustunde oldugu setrin String// olan name sutununu verir
+            String name=rs.getString("name");//hal hazirda ustunde oldugu setirin String olan name sutununu verir
             String surname=rs.getString("surname");
             String phone=rs.getString("phone");;
             String email=rs.getString("email");

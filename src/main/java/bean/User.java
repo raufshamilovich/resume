@@ -7,8 +7,12 @@ public class User {
     private String phone;
     private String email;
 
+
+
     public User() {
     }
+
+
 
     @Override
     public String toString() {
@@ -27,6 +31,7 @@ public class User {
         this.surname = surname;
         this.phone = phone;
         this.email = email;
+
     }
 
     public int getId() {
