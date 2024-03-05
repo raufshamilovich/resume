@@ -52,9 +52,8 @@ public class Main {
         // belə çerez-çerez Context metodu ile onu cagira  bildiyimiz ucun classlarimizin bir birinden asılılığı
         // qalmış olmur
         //və bu da `loosely coopling adlanır` gevşek bağlanıt yəni~!
-        User u = userDao.getById(5);
-        u.setName("Eldar");
-        userDao.updateUser(u);
+        User u = new User(0, "Sarkhan", "Rasullu", "9945555555", "sarkhanrasullug@gmail.com");
+        userDao.addUser(u);
         System.err.println(u);
 
 
